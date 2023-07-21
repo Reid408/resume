@@ -1,0 +1,139 @@
+body {
+  background-color: #f1f1f1;
+  color: #757575 !important;
+}
+
+.main {
+  width: 90%;
+  margin: 20px 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  display: inline-block;
+  padding: 15px;
+  width: 20%;
+  margin-left: 10px;
+  box-shadow: -1px 4px 14px 4px rgba(0, 0, 0, 0.2);
+}
+
+.left_personalInfo div {
+  margin: 10px 0;
+}
+
+.icon-small {
+  color: #7a7a7a;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.icon_small {
+  color: #7a7a7a;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.right {
+  display: inline-block;
+  padding: 0 15px;
+  width: 75%;
+  margin-left: 20px;
+}
+
+.right_box {
+  padding: 15px;
+  box-shadow: -1px 4px 14px 4px rgba(0, 0, 0, 0.2);
+}
+
+.right_box:not(:first-child) {
+  margin-top: 5%;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+h3 {
+  display: inline-block;
+}
+
+.left_pic {
+  margin-right: 40%;
+}
+
+.left_personalInfo img {
+  width: 100%;
+}
+
+.skill_container {
+  width: 100%;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #eee;
+}
+
+.skill_progress1 {
+  width: 50%;
+  height: 25px;
+  border-radius: 25px 0 0 25px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personalTitle {
+  color: #7a7a7a;
+}
+
+/* =================================================================
+  IPAD
+  */
+@media (max-width: 1064px) {
+  .main {
+    width: 90%;
+    margin: 20px 5%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left {
+    display: inline-block;
+    padding: 15px;
+    margin-left: 5px;
+    width: 30%;
+    box-shadow: -1px 4px 14px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .right {
+    display: inline-block;
+    padding: 0 15px;
+  }
+}
+
+/* =================================================================
+  Mobile
+  */
+@media (max-width: 543px) {
+  .main {
+    width: 90%;
+    margin: 20px 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    display: inline-block;
+    padding: 15px;
+    margin-left: 5px;
+    width: auto;
+    box-shadow: -1px 4px 14px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .right {
+    display: inline-block;
+    padding: 0 15px;
+    margin-top: 5%;
+  }
+}
